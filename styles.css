@@ -1,0 +1,48 @@
+header{
+    background-color: darkslateblue;
+}
+nav ul{
+    box-sizing: border-box;
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul li a {
+    text-decoration:none ;
+    color:floralwhite;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    color: red;
+    border-bottom: 2px solid red;
+}
+.alinharElementoAEsquerda{
+    float: left;
+    padding-left: 0%;
+    width: 350px;
+}
+
+img{
+    float: right;
+    padding: right 0; 
+    width: 350px;
+}
+p{
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li{
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    background-color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    padding: 3px;
+    text-align:center;
+    display: block;
+}
