@@ -18,6 +18,23 @@ header{
     flex-direction: column;
     position: relative;
 }
+
+h3{
+    width: 100%;
+    display: flex;
+    background-color: red;
+       
+}
+h3 a {
+    text-decoration:none ;
+    color:red;
+}
+h3:hover{
+    cursor: pointer;
+    color:blue; 
+    border-bottom: 2px solid rgb(148, 148, 160);
+}
+
 nav{
     width: 100%;
     display: flex;
@@ -124,6 +141,14 @@ h1:hover{
     color: red;
 }
 
+#recuo{
+     text-align: right;
+     font-size: small;
+}
+#principal {
+     background-color: burlywood;
+}
+
 .aqui{
     background-color: red;
     border:black;
@@ -176,19 +201,4 @@ footer{
     align-items: center;
     display: flex;
     justify-content: center;
-}
-h3{
-    width: 100%;
-    display: flex;
-    background-color: red;
-       
-}
-h3 a {
-    text-decoration:none ;
-    color:red;
-}
-h3:hover{
-    cursor: pointer;
-    color:blue; 
-    border-bottom: 2px solid rgb(148, 148, 160);
 }
